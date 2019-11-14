@@ -1,0 +1,12 @@
+div {
+    float:left;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: lightgray;
+    font-family:monospace;
+    font-size:100px;
+}
+
+br { clear:left;}

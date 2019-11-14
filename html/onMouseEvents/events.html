@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<script src="events.js"></script>
+<link href="events.css" rel="stylesheet" type="text/css">
+<head>
+
+</head>
+<body>
+
+<h3>This example demonstrates the difference between onmousemove, onmouseenter and onmouseover.</h3>
+
+<p id="something" >The onmousemove event occurs every time the mouse pointer is moved over the div element.</p>
+<p>The mouseenter event only occurs when the mouse pointer enters the div element. </p>
+<p>The onmouseover event occurs when the mouse pointer enters the div element, and its child elements (p and span).</p>
+
+<div onmousemove="myMoveFunction()">
+  <p>onmousemove: <br> <span id="demo">Mouse over me!</span></p>
+</div>
+
+<div onmouseenter="myEnterFunction()">
+  <p>onmouseenter: <br> <span id="demo2">Mouse over me!</span></p>
+</div>
+
+<div onmouseover="myOverFunction()">
+  <p>onmouseover: <br> <span id="demo3">Mouse over me!</span></p>
+</div>
+
+<div id="click" onclick="myFunction(event)" onmouseout="clearCoor()"></div>
+<p>onmouseclick: <br> <span id="demo4">Click me!</p>
+</div>
+
+
+</body>
+</html>
