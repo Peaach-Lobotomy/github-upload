@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Comparison Table Webpage</title>
+<meta charset="UTF-8">
+<link href="ComparisonTable.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<table>
+<caption>Truthiness</caption>
+<tr>
+	<th>Expression</th>
+	<th>Value</th>
+	<th>why?</th>
+</tr>
+<!-- make one more row per example from below-->
+<tr class="truthy">
+	<td>2 &lt; 12</td>
+	<td> true</td>
+	<td>number comparison</td>
+</tr>
+<tr class="truthy">
+	<td>2 &lt; "12"</td>
+	<td>true</td>
+	<td>number comparison</td>
+</tr>
+<tr class="falsy">
+	<td>"2" &lt; "12"</td>
+	<td>false</td>
+	<td>treats it alphabetically if both are strings</td>
+</tr>
+</table>
+</body>
+</html>
